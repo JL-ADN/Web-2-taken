@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+}
+
+li {
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: crimson;
+}
+
+a {
+    color: lightgreen;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
