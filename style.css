@@ -14,11 +14,11 @@ li {
 }
 
 li:hover {
-    background-color: lightcyan;
+    background-color: lightseagreen;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 ul {
