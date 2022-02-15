@@ -14,8 +14,8 @@ alert(som)
 let isGetal1KleinerDanGetal2 = getal1 < getal2
 
 if (isGetal1KleinerDanGetal2) {
-    alert('getal1 is groter dan getal2'); //Dit voeren we uit indien juist
+    alert('getal1 is kleiner dan getal2'); //Dit voeren we uit indien juist
 }
 else {
-    alert('getal1 is kleiner dan getal2'); // Dit voeren we uit indien fout
+    alert('getal1 is groter dan getal2'); // Dit voeren we uit indien fout
 }
