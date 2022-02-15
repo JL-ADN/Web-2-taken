@@ -1,16 +1,16 @@
 body {
-    background-color: lightseagreen;
+    background-color: orangered;
 }
 
 li {
-    background-color: aquamarine;
+    background-color: black;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
 }
 
 li:hover {
-    background-color: black;
+    background-color: orange;
 }
 
 a {
