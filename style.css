@@ -3,18 +3,18 @@ h1 {
 }
 
 li {
-    background-color: lightgreen;
+    background-color: lightcoral;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
 }
 
 li:hover {
-    background-color: lightskyblue;
+    background-color: lightblue;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 ul {
@@ -31,11 +31,11 @@ body {
 
 @keyframes myanimation {
     0% {
-        background-color: lightseagreen;
+        background-color:lightcoral ;
     }
 
     25% {
-        background-color: lightcoral;
+        background-color: lightseagreen;
     }
 
     50% {
