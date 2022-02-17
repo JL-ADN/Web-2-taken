@@ -31,15 +31,15 @@ body {
 
 @keyframes myanimation {
     0% {
-        background-color: blue;
+        background-color: lightseagreen;
     }
 
     25% {
-        background-color: lightskyblue;
+        background-color: lightcoral;
     }
 
     50% {
-        background-color: lightblue;
+        background-color: lightgreen;
     }
 
     75% {
@@ -47,6 +47,6 @@ body {
     }
 
     100% {
-        background-color: lightgreen;
+        background-color: lightcoral;
     }
 }
