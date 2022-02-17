@@ -26,12 +26,12 @@ h1 {
 }
 
 body {
-    animation: myanimation 9s infinite;
+    animation: myanimation 10s infinite;
 }
 
 @keyframes myanimation {
     0% {
-        background-color: lightseagreen;
+        background-color: blue;
     }
 
     25% {
@@ -43,7 +43,7 @@ body {
     }
 
     75% {
-        background-color: lightskyblue;
+        background-color: lightseagreen;
     }
 
     100% {
