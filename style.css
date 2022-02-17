@@ -3,7 +3,7 @@ h1 {
 }
 
 li {
-    background-color: lightcoral;
+    background-color: lightgreen;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -27,26 +27,26 @@ h1 {
 
 body {
     animation: myanimation 10s infinite;
-  }
-  
-  @keyframes myanimation {
+}
+
+@keyframes myanimation {
     0% {
-      background-color: lightseagreen;
+        background-color: lightseagreen;
     }
-  
+
     25% {
-      background-color: rgb(255, 255, 137);
+        background-color: rgb(255, 255, 137);
     }
-  
+
     50% {
-      background-color: lightgreen;
+        background-color: lightgreen;
     }
-  
+
     75% {
-      background-color: lightgoldenrodyellow;
+        background-color: lightskyblue;
     }
-  
+
     100% {
-      background-color: yellowgreen;
+        background-color: blue;
     }
-  }
+}
