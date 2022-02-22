@@ -18,6 +18,6 @@ select.onchange = function () {
 
   // NIETS VERANDEREN AAN CODE HIERBOVEN
   // voeg hier code toe, zodat afhankelijk van de waarde, de kleur word aangepast
-else if ( select.value === 'red') {updateBackgroundAndTextColor('red','white', 'black')}
-else if ( select.value === 'green') {updateBackgroundAndTextColor('green','black','red' , 'black')}
+  else if (select.value === 'red') { updateBackgroundAndTextColor('red', 'white', 'black') }
+  else if (select.value === 'green') { updateBackgroundAndTextColor('green', 'black', 'red', 'black') }
 }
