@@ -25,6 +25,7 @@ function updateBackgroundColor(achtergrondKleur) {
 
 selectVoorAchtergrondKleur.onchange = function () {
   console.log('huidige waarde van de select / dropdown:', selectVoorAchtergrondKleur.value);
+
   if (selectVoorAchtergrondKleur.value === 'white') {
     updateBackgroundColor('white');
 
@@ -36,22 +37,23 @@ selectVoorAchtergrondKleur.onchange = function () {
   }
   else if (selectVoorAchtergrondKleur.value === 'green') {
     updateBackgroundColor('green');
+  }
+}
 
-    selectVoorTekstKleur.onchange = function () {
-      console.log('huidige waarde van de select / dropdown:', selectVoorTekstKleur.value);
+selectVoorTekstKleur.onchange = function () {
+  console.log('huidige waarde van de select / dropdown:', selectVoorTekstKleur.value);
 
-      if (selectVoorTekstKleur.value === 'black') {
-        updateTextColor('black');
-      }
-      else if (selectVoorTekstKleur.value === 'white') {
-        updateTextColor('white');
-      }
-      else if (selectVoorTekstKleur.value === 'orange') {
-        updateTextColor('orange');
-      }
-      else if (selectVoorTekstKleur.value === 'green') {
-        updateTextColor('green');
-      }
-    }
+
+  if (selectVoorTekstKleur.value === 'black') {
+    updateTextColor('black');
+  }
+  else if (selectVoorTekstKleur.value === 'white') {
+    updateTextColor('white');
+  }
+  else if (selectVoorTekstKleur.value === 'orange') {
+    updateTextColor('orange');
+  }
+  else if (selectVoorTekstKleur.value === 'green') {
+    updateTextColor('green');
   }
 }
