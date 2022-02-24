@@ -10,20 +10,6 @@ body {
 	position: absolute;
 	z-index: 1;
 }
-.banner-text ul {
-	height: 50px;
-	float: right;
-}
-.banner-text ul li {
-	display: inline-block;
-	padding: 40px 15px;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 20px;
-}
-.banner-text ul li:hover {
-	cursor: pointer;
-}
 .banner-text h2 {
 	text-align: center;
 	color: #fff;
