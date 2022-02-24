@@ -1,27 +1,31 @@
 /** pas de kleuren aan naar eigen smaak, zorg gwn voor contrast & eenduidig thema **/
 body {
-  background-color: bisque;
+  background-color:
+    rgb(75, 0, 130);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 p {
   text-align: center;
+  color: white;
 }
 
 /** onderstaande styling mag gerust verwijderd worden **/
 
 .menu a:visited {
-  color: rgb(116, 29, 29);
+  color: white;
   background-color: inherit;
 }
 
 ul.menu {
   display: flex;
-  color: black;
+  color: white;
   justify-content: space-evenly;
   list-style: none;
   font-size: 25px;
@@ -29,9 +33,42 @@ ul.menu {
 }
 
 hr {
-  border-top: 2px solid rgb(116, 29, 29);
+  border-top: 2px solid white;
 }
 
 .centreer {
   display: flex;
+}
+
+ul {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(20deg, rgb(138, 43, 226) 25%, red 50%, rgb(72, 209, 204) 25%);
+  background-size: 100% 75%;
+  background-repeat: no-repeat;
+  margin: 0px;
 }
