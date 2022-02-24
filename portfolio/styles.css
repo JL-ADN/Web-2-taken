@@ -1,7 +1,6 @@
-/** pas de kleuren aan naar eigen smaak, zorg gwn voor contrast & eenduidig thema **/
 body {
   background-color:
-    rgb(75, 0, 130);
+    rgb(0, 191, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -15,8 +14,6 @@ p {
   text-align: center;
   color: white;
 }
-
-/** onderstaande styling mag gerust verwijderd worden **/
 
 .menu a:visited {
   color: white;
@@ -67,8 +64,8 @@ img {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(20deg, rgb(138, 43, 226) 25%, red 50%, rgb(72, 209, 204) 25%);
-  background-size: 100% 75%;
+  background-image: linear-gradient(45deg, rgb(138, 43, 226) 11.11%, rgb(0, 191, 255) 33.33%, rgb(220, 20, 60) 66.66%);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin: 0px;
+  margin: 1px;
 }
