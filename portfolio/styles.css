@@ -37,6 +37,9 @@ hr {
   display: flex;
 }
 
+li:hover {
+  background-color: lightblue;
+}
 ul {
   text-align: center;
 }
