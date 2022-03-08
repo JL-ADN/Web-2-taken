@@ -11,5 +11,9 @@ let lijstVoetballer = [voetballer1, voetballer2, voetballer3]
 console.log(lijstVoetballer.length);
 
 for (let i = 0; i < lijstVoetballer.length; i++) {
-    console.log(lijstVoetballer[i]);
+    soccerPlayer(lijstVoetballer[i]);
+}
+
+function soccerPlayer(parameter) {
+     console.log(parameter.name + ' ' + parameter.age + ' ' + parameter.club);
 }
