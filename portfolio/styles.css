@@ -37,9 +37,11 @@ hr {
   display: flex;
 }
 
-li:hover {
-  background-color: white;
+li a:hover {
+  color: black;
+  border-bottom: 1.5px solid black;
 }
+
 ul {
   text-align: center;
 }
@@ -55,7 +57,11 @@ li {
 }
 
 a {
-  color: black;
+  color: white;
+}
+
+a {
+  text-align: center;
 }
 
 img {
@@ -71,4 +77,100 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 1px;
+}
+
+.Cerfnight img {
+  width: 340px;
+  height: 402px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 5px 5px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgreen;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightblue;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 300px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
