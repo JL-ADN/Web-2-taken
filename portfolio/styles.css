@@ -22,7 +22,7 @@ p {
 
 ul.menu {
   display: flex;
-  color: white;
+  color: black;
   justify-content: space-evenly;
   list-style: none;
   font-size: 25px;
@@ -39,7 +39,7 @@ hr {
 
 li a:hover {
   color: black;
-  border-bottom: 1.5px solid black;
+  border-bottom: 3px solid white;
 }
 
 ul {
@@ -57,7 +57,7 @@ li {
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a {
@@ -75,7 +75,7 @@ body {
   width: 100vw;
   background-image: linear-gradient(45deg, lightgreen 11.11%, lightgreen 33.33%, lightblue 66.66%);
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   margin: 1px;
 }
 
@@ -85,6 +85,26 @@ body {
   width: 300px;
   background-color: black;
   box-shadow: 5px 5px;
+}
+
+.LogoBK img {
+  width: 800px;
+  height: 500px;
+}
+
+.logoKFC img {
+  width: 600px;
+  height: 500px;
+}
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+.LogoBK {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 #snackbar {
