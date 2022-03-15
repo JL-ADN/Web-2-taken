@@ -174,3 +174,13 @@ body {
     opacity: 0;
   }
 }
+
+.videologo {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
