@@ -92,19 +92,16 @@ body {
   height: 500px;
 }
 
-.logoKFC img {
-  width: 600px;
-  height: 500px;
-}
-.row {
-  content: "";
-  clear: both;
-  display: table;
-}
 .LogoBK {
   float: left;
-  width: 33.33%;
+  width: auto;
   padding: 5px;
+}
+
+.EigenLogo {
+  display: flex;
+  width: auto;
+  height: auto;
 }
 
 #snackbar {
