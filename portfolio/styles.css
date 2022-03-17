@@ -83,17 +83,15 @@ body {
   width: 340px;
   height: 402px;
   width: 300px;
-  background-color: black;
-  box-shadow: 5px 5px;
 }
 
 .LogoBK img {
-  width: 800px;
+  width: 600px;
   height: 500px;
 }
 
 .LogoBK {
-  float: left;
+  float: inline-end;
   width: auto;
   padding: 5px;
 }
