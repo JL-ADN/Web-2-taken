@@ -85,17 +85,6 @@ body {
   width: 300px;
 }
 
-.LogoBK img {
-  width: 600px;
-  height: 500px;
-}
-
-.LogoBK {
-  float: inline-end;
-  width: auto;
-  padding: 5px;
-}
-
 .EigenLogo {
   display: flex;
   width: auto;
@@ -173,6 +162,16 @@ body {
 }
 
 .videologo {
+  display: flex;
+  justify-content: center;
+}
+
+.Eekhoorn {
+  display: flex;
+  justify-content: center;
+}
+
+.Bboy {
   display: flex;
   justify-content: center;
 }
