@@ -22,7 +22,7 @@ p {
 
 ul.menu {
   display: flex;
-  color: white;
+  color: black;
   justify-content: space-evenly;
   list-style: none;
   font-size: 25px;
@@ -39,7 +39,7 @@ hr {
 
 li a:hover {
   color: black;
-  border-bottom: 1.5px solid black;
+  border-bottom: 3px solid white;
 }
 
 ul {
@@ -57,7 +57,7 @@ li {
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a {
@@ -65,9 +65,9 @@ a {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 body {
@@ -75,7 +75,7 @@ body {
   width: 100vw;
   background-image: linear-gradient(45deg, lightgreen 11.11%, lightgreen 33.33%, lightblue 66.66%);
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   margin: 1px;
 }
 
@@ -83,26 +83,12 @@ body {
   width: 340px;
   height: 402px;
   width: 300px;
-  background-color: black;
-  box-shadow: 5px 5px;
 }
 
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: lightgreen;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: lightblue;
+.EigenLogo {
+  display: flex;
+  width: auto;
+  height: auto;
 }
 
 #snackbar {
@@ -117,8 +103,8 @@ body {
   position: fixed;
   z-index: 1;
   left: 50%;
-  bottom: 30px;
-  font-size: 17px;
+  bottom: 50px;
+  font-size: 20px;
 }
 
 #snackbar.show {
@@ -173,4 +159,24 @@ body {
     bottom: 0;
     opacity: 0;
   }
+}
+
+.videologo {
+  display: flex;
+  justify-content: center;
+}
+
+.Eekhoorn {
+  display: flex;
+  justify-content: center;
+}
+
+.Bboy {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
 }
